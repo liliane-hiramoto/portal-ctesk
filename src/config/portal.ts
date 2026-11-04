@@ -18,7 +18,7 @@ export const PORTAL = {
   prefixoLocal: "ctesk",
   /** Cor da marca em hex SEM "#": a Consulta CNPJ (/cnpj?brand=…) pinta a
    *  ferramenta com ela. Igual ao `--brand` do globals.css. */
-  brandHex: "1e293b",
+  brandHex: "062872",
   /** Endereço na Vercel da INSTÂNCIA do módulo Tributos deste portal (cópia do
    *  canônico tributos-web, basePath /tributos). O next.config.ts serve
    *  `/tributos` daqui por rewrite (Multi-Zones). Ver NOVO-PORTAL.md. */
