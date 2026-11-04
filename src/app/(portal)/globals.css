@@ -4,15 +4,13 @@
 @source "../../vendor";
 
 :root {
-  /* Paleta da MARCA deste portal — troque só estas 6 linhas (ver NOVO-PORTAL.md).
-     O modelo vem em azul-ardósia neutro. Cores de aging/status são semânticas e
-     não mudam com a marca. */
-  --brand: #1e293b;        /* cor escura principal (sidebar, cabeçalho) */
-  --brand-2: #334155;      /* segunda cor do gradiente */
-  --brand-soft: #e2e8f0;   /* tom claro de fundo */
-  --accent: #2563eb;       /* destaque (botões, seleção) */
-  --accent-dk: #1d4ed8;
-  --brand-grad: linear-gradient(165deg, #1e293b 0%, #334155 100%);
+  /* Paleta da CTESK (cteskadm.com.br, print da usuária, 04/11/2026): azul-marinho #062872 (Área do Corretor), azul #2657a3 (Área do Cliente) e o azul #0b76a8 da barra; logo redesenhado em SVG com o nome e o ponto azul, a partir do print. */
+  --brand: #062872;        /* cor escura principal (sidebar, cabeçalho) */
+  --brand-2: #2657a3;      /* segunda cor do gradiente */
+  --brand-soft: #e6f3fb;   /* tom claro de fundo */
+  --accent: #0b76a8;       /* destaque (botões, seleção) */
+  --accent-dk: #075a82;
+  --brand-grad: linear-gradient(165deg, #062872 0%, #2657a3 100%);
 }
 
 /* Fundo de marca (sidebar e cabeçalho) com o gradiente da marca. */
